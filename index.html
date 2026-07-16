@@ -526,33 +526,35 @@
 
     <div class="project-card">
       <div class="project-header">
-        <span class="project-name">qa-automation-showcase</span>
+        <span class="project-name">test-automation-framework</span>
         <span class="badge badge-live">live</span>
       </div>
       <p class="project-desc">
-        Multi-module Maven project demonstrating production-grade QA automation practices.
-        Built from scratch to showcase end-to-end test automation for a real API.
+        Multi-module Maven project for API and UI test automation.
+        REST Assured for API, Selenium WebDriver with Page Object Model for UI,
+        running on Selenium Grid via Docker Compose, with parallel CI on GitHub Actions.
       </p>
-      <ul class="project-features">
+     <ul class="project-features">
         <li>API Tests — REST Assured + JUnit 5 targeting DummyJSON API</li>
-        <li>UI Tests — Selenium WebDriver with Page Object Model</li>
-        <li>BDD — Cucumber / Gherkin feature files</li>
-        <li>CI/CD — GitHub Actions pipeline with Allure reports on GitHub Pages</li>
-      </ul>
+        <li>UI Tests — Selenium WebDriver + Page Object Model on SauceDemo</li>
+        <li>CI/CD — GitHub Actions with Selenium Grid (parallel API + UI jobs)</li>
+        <li>Reporting — Allure reports auto-deployed to GitHub Pages</li>
+        <li>Infrastructure — Docker Compose with Selenium Grid Hub + Chrome Node</li>
+     </ul>
       <div class="project-links">
-        <a href="https://github.com/demiremirhan/qa-automation-showcase" target="_blank">→ GitHub repo</a>
-        <a href="https://demiremirhan.github.io/qa-automation-showcase" target="_blank">→ Live Allure report</a>
+        <a href="https://github.com/demiremirhan/test-automation-framework" target="_blank">→ GitHub repo</a>
+        <a href="https://demiremirhan.github.io/test-automation-framework" target="_blank">→ Live Allure report</a>
       </div>
       <div class="tag-row">
         <span class="tag">Java</span>
         <span class="tag">Selenium</span>
         <span class="tag">REST Assured</span>
-        <span class="tag">Cucumber</span>
         <span class="tag">JUnit 5</span>
         <span class="tag">Maven</span>
         <span class="tag">GitHub Actions</span>
         <span class="tag">Allure</span>
-        <span class="badge badge-done" style="font-size:11px;">Docker ✓</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Selenium Grid</span>
       </div>
     </div>
 
